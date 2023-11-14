@@ -9,3 +9,5 @@
 
 /* home */
 @import "./home/introducao.css";
+
+@import "./drones/drones-lista.css"
