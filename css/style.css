@@ -14,5 +14,8 @@
 @import "./home/depoimento.css";
 
 
+/* Drones */
+@import "./drones/drones-lista.css";
 
-@import "./drones/drones-lista.css"
+/* Treinamentos */
+@import "./treinamentos/treinamentos.css";
