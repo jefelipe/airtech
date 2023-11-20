@@ -18,6 +18,8 @@
 
 /* Drones */
 @import "./drones/drones-lista.css";
+@import "./drones/drones.css";
+
 
 /* Treinamentos */
 @import "./treinamentos/treinamentos.css";
