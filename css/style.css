@@ -23,6 +23,10 @@
 
 /* Treinamentos */
 @import "./treinamentos/treinamentos.css";
+@import "./treinamentos/vantagens.css";
+@import "./treinamentos/perguntas.css";
+
+
 
 /* Termos */
 @import "./termos/termos.css";
