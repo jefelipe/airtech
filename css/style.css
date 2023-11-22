@@ -20,6 +20,9 @@
 @import "./drones/drones-lista.css";
 @import "./drones/drones.css";
 
+/* Drone */
+@import "./drone/drone.css";
+
 
 /* Treinamentos */
 @import "./treinamentos/treinamentos.css";
