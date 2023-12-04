@@ -11,6 +11,7 @@
       content="Quando iniciamos a AirTech, nosso objetivo era revolucionar a indústria com o poder da tecnologia aérea. Hoje, somos líderes no mercado de drones "
     />
 
+    <link rel="preload" href="./css/style.css" as="styel" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -25,7 +26,7 @@
     <header class="header-bg">
       <div class="header container">
         <a href="./">
-          <img src="./img/airtech.svg" alt="airtech" />
+          <img src="./img/airtech.svg" width="114" height="27" alt="airtech" />
         </a>
 
         <nav aria-label="primaria">
@@ -51,9 +52,10 @@
           </p>
           <a class="botao" href="./drones.html">Escolha o seu</a>
         </div>
-        <div>
-          <img src="./img/fotos/foto intro.jpg" alt="Drone tecnologico" />
-        </div>
+          <picture>
+            <source media="(max-width: 800px)" srcset="./img/Drones/aerotech.jpg">
+            <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Drone tecnologico" />
+          </picture>
       </div>
     </main>
 
@@ -65,7 +67,7 @@
       <ul>
         <li>
           <a href="./drones/aerotech.html">
-            <img src="./img/Drones/aerotech1.jpg" alt="Drone aerotech" />
+            <img src="./img/Drones/aerotech1.jpg" height="920" width="1040" alt="Drone aerotech" />
             <h3 class="font-1-xl">AeroTech X1</h3>
             <span class="font-2-m cor-8">R$ 5600</span>
           </a>
@@ -73,9 +75,7 @@
         <li>
           <a href="./drones/swiftdrone.html">
             <img
-              src="./img/Drones/swiftdrone-home.jpg"
-              alt="Drone SwiftDrone Evo"
-            />
+              src="./img/Drones/swiftdrone-home.jpg" height="920" width="1040" alt="Drone SwiftDrone Evo"/>
             <h3 class="font-1-xl">SwiftDrone Evo</h3>
             <span class="font-2-m cor-8">R$ 3600</span>
           </a>
@@ -83,9 +83,7 @@
         <li>
           <a href="./drones/skyblade.html">
             <img
-              src="./img/Drones/skyblade-home.jpg"
-              alt="Drone SkyBlade Nexus"
-            />
+              src="./img/Drones/skyblade-home.jpg" height="920" width="1040" alt="Drone SkyBlade Nexus"/>
             <h3 class="font-1-xl">SkyBlade Nexus</h3>
             <span class="font-2-m cor-8">R$ 2600</span>
           </a>
@@ -106,7 +104,7 @@
           <a class="link" href="./drones.html">Escolha um modelo</a>
           <div class="tecnologia-vantagens">
             <div>
-              <img src="./img/icones/radar.svg" alt="" />
+              <img src="./img/icones/radar.svg" width="24" height="24" alt="" />
               <h3 class="font-1-m cor-0">Sensores Ultrassônicos</h3>
               <p class="font-2s cor-5">
                 Equipado com sensores de alta precisão e algoritmos
@@ -117,7 +115,7 @@
             </div>
 
             <div>
-              <img src="./img/icones/camera.svg" alt="" />
+              <img src="./img/icones/camera.svg" width="24" height="24" alt="" />
               <h3 class="font-1-m cor-0">Alta Resolução</h3>
               <p class="font-2s cor-5">
                 O drone conta com uma câmera de alta resolução e estabilização
@@ -128,7 +126,7 @@
           </div>
         </div>
         <div class="tecnologia-imagem">
-          <img src="./img/fotos/tecnologia.jpg" alt="" />
+          <img src="./img/fotos/tecnologia.jpg" width="1200" height="1920" alt="" />
         </div>
       </div>
     </article>
@@ -139,23 +137,21 @@
       </h2>
 
       <ul>
-        <li><img src="./img/parceiros/caravan.svg" alt="caravan" /></li>
-        <li><img src="./img/parceiros/ranek.svg" alt="ranek" /></li>
-        <li><img src="./img/parceiros/handel.svg" alt=handel"></li>
-        <li><img src="./img/parceiros/dogs.svg" alt="dogs" /></li>
-        <li><img src="./img/parceiros/lescone.svg" alt="lesccone" /></li>
-        <li><img src="./img/parceiros/flexblog.svg" alt="flexblog" /></li>
-        <li><img src="./img/parceiros/wildbeast.svg" alt="wildbeast" /></li>
-        <li><img src="./img/parceiros/surfbot.svg" alt="surfbot" /></li>
+        <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt="caravan" /></li>
+        <li><img src="./img/parceiros/ranek.svg" width="148" height="36" alt="ranek" /></li>
+        <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt=handel"></li>
+        <li><img src="./img/parceiros/dogs.svg" width="152" height="39" alt="dogs" /></li>
+        <li><img src="./img/parceiros/lescone.svg" width="208" height="41" alt="lesccone" /></li>
+        <li><img src="./img/parceiros/flexblog.svg" width="164" height="38" alt="flexblog" /></li>
+        <li><img src="./img/parceiros/wildbeast.svg" width="196" height="34" alt="wildbeast" /></li>
+        <li><img src="./img/parceiros/surfbot.svg" width="200" height="49" alt="surfbot" /></li>
       </ul>
     </section>
 
     <section class="depoimento" aria-label="Depoimento">
       <div>
         <img
-          src="./img/fotos/depoimento.jpg"
-          alt="Pessoa Segurando um Drone AeroTech X1"
-        />
+          src="./img/fotos/depoimento.jpg" width="1560" height="1360" alt="Pessoa Segurando um Drone AeroTech X1"/>
       </div>
       <div class="depoimento-conteudo">
         <blockquote class="font-1-xl cor-p5">
@@ -224,7 +220,7 @@
 
     <footer class="footer-bg">
       <div class="footer container">
-        <img src="./img/airtech.svg" alt="airtech" />
+        <img src="./img/airtech.svg" width="114" height="27" alt="airtech" />
         <div class="footer-contato">
           <h3 class="font-2-l-b cor-0">Contato</h3>
           <ul class="font-2-m cor-5">
@@ -237,12 +233,12 @@
           </ul>
           <div class="footer-rede">
             <a href=""
-              ><img src="./img/redes/instagram.svg" alt="Instagram" />
+              ><img src="./img/redes/instagram.svg" width="40" height="40" alt="Instagram" />
             </a>
             <a href=""
-              ><img src="./img/redes/facebook.svg" alt="Facebook" />
+              ><img src="./img/redes/facebook.svg" width="40" height="40" alt="Facebook" />
             </a>
-            <a href=""><img src="./img/redes/youtube.svg" alt="Youtube" /> </a>
+            <a href=""><img src="./img/redes/youtube.svg" width="40" height="40" alt="Youtube" /> </a>
           </div>
         </div>
         <div class="footer-informacoes">
