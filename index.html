@@ -42,17 +42,17 @@
     <main class="introducao-bg">
       <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1 class="font-1-xxl cor-0">
+          <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">
             Drones de alta tecnologia<span class="cor-p1">.</span>
           </h1>
-          <p class="font-2-l cor-5">
+          <p class="font-2-l cor-5 fadeInDown" data-anime="400">
             Quando iniciamos a AirTech, nosso objetivo era revolucionar a
             indústria com o poder da tecnologia aérea. Hoje, somos líderes no
             mercado de drones
           </p>
-          <a class="botao" href="./drones.html">Escolha o seu</a>
+          <a class="botao fadeInDown" data-anime="600" href="./drones.html">Escolha o seu</a>
         </div>
-        <picture>
+        <picture data-anime="800" class="fadeInDown">
           <source
             media="(max-width: 800px)"
             srcset="./img/Drones/aerotech.jpg"
@@ -362,6 +362,7 @@
       </div>
     </footer>
 
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

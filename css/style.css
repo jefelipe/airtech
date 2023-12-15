@@ -1,6 +1,7 @@
 @import "./global/global.css";
 @import "./utilities/tipografia.css";
 @import "./utilities/cores.css";
+@import "./utilities/animacao.css";
 
 @import "./global/header.css";
 @import "./global/footer.css";
